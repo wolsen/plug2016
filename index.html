@@ -26,8 +26,8 @@
       <div class="slides">
         <section id="qrcode" data-menu-title="QR code">
           <div class="qrcode" id="qrcode-talk"/>
-          <p><a href="https://example.com/link/to/this/talk" target="_blank"
-                id="talk">https://example.com/link/to/this/talk</a></p>
+          <p><a href="https://wolsen.github.io/plug2016" target="_blank"
+                id="talk">https://wolsen.github.io/plug2016</a></p>
         </section>
         <section id="intro"
                  data-markdown="markdown/intro.md"
@@ -35,8 +35,44 @@
                  data-separator-vertical="^\n\n"
                  data-separator-notes="^Note:">
         </section>
-        <section id="main"
-                 data-markdown="markdown/main.md"
+        <section id="what-is"
+                 data-markdown="markdown/what-is.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Note:">
+        </section>
+        <section id="history"
+                 data-markdown="markdown/history.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separatpr-notes="^Note:">
+        </section>
+        <section id="keystone"
+                 data-markdown="markdown/keystone.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Note:">
+        </section>
+        <section id="nova"
+                 data-markdown="markdown/nova.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Note:">
+        </section>
+        <section id="neutron"
+                 data-markdown="markdown/neutron.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Note:">
+        </section>
+        <section id="demo"
+                 data-markdown="markdown/demo.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Note:">
+        </section>
+        <section id="contribute"
+                 data-markdown="markdown/contribute.md"
                  data-separator="^\n\n\n"
                  data-separator-vertical="^\n\n"
                  data-separator-notes="^Note:">
@@ -83,7 +119,7 @@ for (var i = 0; i < n; i++) {
 // Full list of configuration options available here:
 // https://github.com/hakimel/reveal.js#configuration
 Reveal.initialize({
-    controls: true,
+    controls: false,
     progress: true,
     history: true,
     center: true,
@@ -95,7 +131,7 @@ Reveal.initialize({
     parallaxBackgroundSize: '2100px 900px', // CSS syntax, e.g. "2100px 900px"
 
     theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-    transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+    transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 
     menu: {
         themes: false,
