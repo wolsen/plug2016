@@ -1,3 +1,4 @@
-<!-- .slide: data-background-image="images/by-sa.svg" data-background-size="contain" -->
+# Thank You
 
-Note: Add conclusion notes here.
+
+![CC by SA](images/by-sa.svg)
